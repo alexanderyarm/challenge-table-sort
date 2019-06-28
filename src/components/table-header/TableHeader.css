@@ -1,0 +1,49 @@
+.TableHeader__cell {
+  border-bottom: 1px solid #bbb;
+  cursor: pointer;
+  font-size: .85rem;
+  padding: 0 2.5rem 1rem .5rem;
+}
+
+.TableHeader__title {
+  display: inline-block;
+  position: relative;
+}
+
+.TableHeader__title--active {
+  font-weight: 600;
+}
+
+.TableHeader__icon {
+  padding-left: .5rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(100%);
+}
+
+.TableHeader__input-container {
+  margin-top: 1rem;
+}
+
+.TableHeader__input {
+  transition: border-color .2s;
+  border: 1px solid #ddd;
+  height: 2rem;
+  padding: 0 .5rem;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.TableHeader__input:focus {
+  border-color: #5966a9
+}
+
+.TableHeader__input-number {
+  text-align: center;
+}
+
+.TableHeader__input-productionBudget,
+.TableHeader__input-worldwideBoxOffice {
+  text-align: right;
+}

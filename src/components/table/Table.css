@@ -1,0 +1,32 @@
+.Table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse; 
+}
+
+.Table__number {
+  text-align: center;
+  width: 100px;
+}
+
+.Table__title {
+  text-align: left;
+  width: 350px;
+}
+
+.Table__releaseDate {
+  text-align: left;
+  width: 150px;
+}
+
+.Table__productionBudget {
+  text-align: right;
+}
+
+.Table__worldwideBoxOffice {
+  text-align: right;
+}
+
+.Table__nothing-found {
+  margin-top: 1.5rem;
+}

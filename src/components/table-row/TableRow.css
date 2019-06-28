@@ -1,0 +1,20 @@
+.TableRow {
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.TableRow:hover {
+  background: linear-gradient(180deg, 
+    rgba(255,255,255,1) 0%, 
+    rgba(255,255,255,1) 10%, 
+    rgba(250,247,249,1) 11%, 
+    rgba(250,247,249,1) 91%, 
+    rgba(255,255,255,1) 92%, 
+    rgba(255,255,255,1) 100%);
+}
+
+.TableRow__cell {
+  font-size: .85rem;
+  padding: 1rem 2.5rem 1rem .5rem;
+  border-top: 1px solid #eee;
+}
